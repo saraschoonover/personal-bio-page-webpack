@@ -2,8 +2,35 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
+  background-color: rgb(19, 51, 55);
+  color: rgb(226, 169, 78);
   margin-top: 100px;
+}
+
+#project-page {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#tech-page {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#bio-page {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#navigation {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-around;
 }
